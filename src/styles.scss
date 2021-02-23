@@ -1,0 +1,30 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+html,
+body {
+  font-family: "Kanit";
+  letter-spacing: 0.05em;
+  font-size: 14px;
+}
+
+.sub-header {
+  position: relative;
+  text-align: center;
+  background: #0c8397;
+  color: #ffffff;
+
+  .img-icon {
+    position: absolute;
+    left: 0;
+    padding-left: 12px;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

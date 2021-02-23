@@ -1,0 +1,25 @@
+<div class="container-transfer-form">
+    <div class="sub-header p-2">
+        <img src="../../assets/icons/arrows.png" alt="arrows icon" class="img-icon" />
+        Make a Transfer
+    </div>
+    <div class="sub-content p-3 make-transfer">
+        <form class="transfer-form" (ngSubmit)="onSubmit(form)"  #form="ngForm">
+            <div class="form-group">
+                <label for="fromAccount" class="cstm-form-label">FROM ACCOUNT</label>
+                <input id="fromAccount" type="text" class="form-control cstm-form" [ngModel]="accountAmount" name="fromAccount" disabled value="Free Checking(4692) - $5824.76">
+            </div>
+            <div class="form-group">
+                <label for="toAccount" class="cstm-form-label">TO ACCOUNT</label>
+                <input id="toAccount" type="text" class="form-control cstm-form" ngModel name="toAccount" placeholder="Georgia Power Electric Company">
+            </div>
+            <div class="form-group">
+                <label for="toAccount" class="cstm-form-label">AMOUNT</label>
+                <input id="amount" type="number" class="form-control cstm-form" ngModel name="amount" max="500" placeholder="$ 0.00">
+            </div>
+            <div class="text-right">
+                <button class="btn btn-light btn-orange pull-right" [disabled]="!canSubmit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</div>

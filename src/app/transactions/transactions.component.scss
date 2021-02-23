@@ -1,0 +1,60 @@
+.container-transactions {
+  background: #ffffff;
+  padding-bottom: 10px;
+}
+
+.list-container,
+.filter-bar {
+  margin: 15px;
+}
+
+.img_merchant {
+  width: 50px;
+}
+
+.form-control {
+  border: 0;
+  border-radius: 0;
+}
+
+.cstm-form {
+  border-bottom: 1px solid #999999;
+}
+
+.align-middle {
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+}
+
+.align-right {
+  text-align: right;
+
+  span {
+    font-weight: 500;
+  }
+
+  button {
+    border-radius: 0;
+    font-weight: 500;
+  }
+}
+
+.merchant_date {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.merchant_name {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.merchant_type {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.merchant_amount {
+  font-size: 18px;
+  font-weight: 500;
+}
